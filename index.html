@@ -101,25 +101,63 @@
                 </div>
             </div>
         </section>
-        <!-- Astronomical Highlight News -->
+<!-- Astronomical Highlight News -->
 <section class="page-section bg-light" id="news">
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-      <div class="col-lg-8 text-center">
-        <h2 class="mt-0">🌕 Astronomical Highlight News</h2>
+      <div class="col-lg-10 text-center">
+        <h2 class="mt-0">🌌 Astronomical Highlight News</h2>
         <hr class="divider" />
-        <h3 class="h4 mb-3 text-primary">Total Lunar Eclipse – September 7–8, 2025</h3>
-        <p class="text-muted mb-4">
-          Save the date for a breathtaking celestial show! On the night of 
-          <strong>September 7–8, 2025</strong>, a <strong>Total Lunar Eclipse</strong> will grace the skies.
-          The Moon will pass completely through Earth’s shadow, turning a striking
-          shade of red — often called a <em>“Blood Moon.”</em>
-        </p>
-        <p class="text-muted mb-4">
-          This rare event will be visible across much of Asia, Australia, and the Pacific.
-          Join us under the stars as we witness one of the most dramatic spectacles the night sky has to offer.
-        </p>
-        <a class="btn btn-primary btn-xl" href="#contact">Book Your Eclipse Viewing</a>
+        
+        <!-- Bootstrap Carousel -->
+        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+          <div class="carousel-inner">
+
+            <!-- Item 1 -->
+            <div class="carousel-item active">
+              <img src="assets/img/news/eclipse.jpeg" class="d-block w-100 rounded mb-4" alt="Total Lunar Eclipse">
+              <h3 class="h4 text-primary">Total Lunar Eclipse – September 7–8, 2025</h3>
+              <p class="text-muted">
+                On the night of <strong>September 7–8, 2025</strong>, a <strong>Total Lunar Eclipse</strong> 
+                will grace the skies, turning the Moon a deep red — the breathtaking “Blood Moon.” 
+                Visible across Asia, Australia, and the Pacific.
+              </p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="carousel-item">
+              <img src="assets/img/news/saturn.jpeg" class="d-block w-100 rounded mb-4" alt="Saturn’s Ring Disappearance">
+              <h3 class="h4 text-primary">Saturn’s Ring Disappearance – March 23, 2025</h3>
+              <p class="text-muted">
+                Witness a rare celestial event: Saturn’s iconic rings will vanish edge-on, 
+                appearing almost invisible from Earth. This phenomenon happens only once every 13–15 years.
+              </p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="carousel-item">
+              <img src="assets/img/news/milkywaywithc8.jpeg" class="d-block w-100 rounded mb-4" alt="Milky Way Season">
+              <h3 class="h4 text-primary">Milky Way Season – June to August 2025</h3>
+              <p class="text-muted">
+                The core of the Milky Way will shine brightest during the Philippine dry season. 
+                Perfect time for astrophotography and cosmic tours!
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- End Carousel -->
+
       </div>
     </div>
   </div>
