@@ -11058,3 +11058,22 @@ header.masthead h1, header.masthead .h1 {
   height: 250px;      /* uniform size */
   object-fit: cover;  /* crop nicely without distortion */
 }
+
+
+/* ================================
+   News Carousel Image Styling
+   Matches Portfolio Thumbnails
+   ================================ */
+.img-news {
+  width: 100%;
+  height: 300px;        /* Desktop / larger screens */
+  object-fit: cover;    /* Crops neatly without distortion */
+  border-radius: 0.5rem;
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 768px) {
+  .img-news {
+    height: 200px;      /* Smaller on mobile */
+  }
+}
